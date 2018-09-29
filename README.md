@@ -4,6 +4,7 @@
 </p>
 CanetisRarar is open-source application for helping with recognizing sound direction in games. It has overlay that can be used in games and it uses 7.1 audio to calculate sound direction.
 
+
 [![Build status](https://ci.appveyor.com/api/projects/status/6ohnn5stgvsjj0of?svg=true)](https://ci.appveyor.com/project/SamuelTulach/canetisradar) [![Join the chat at https://gitter.im/CanetisRadar/Lobby](https://badges.gitter.im/CanetisRadar/Lobby.svg)](https://gitter.im/CanetisRadar/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) 
 
 ## How to use
