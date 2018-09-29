@@ -1,4 +1,7 @@
 ﻿# Canetis Radar
+
+[![Join the chat at https://gitter.im/CanetisRadar/Lobby](https://badges.gitter.im/CanetisRadar/Lobby.svg)](https://gitter.im/CanetisRadar/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 <p align="center">
     <img src="https://i.imgur.com/V4iRCq5.png">
 </p>
