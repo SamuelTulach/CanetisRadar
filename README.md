@@ -9,7 +9,7 @@ CanetisRarar is open-source application for helping with recognizing sound direc
 ## How to use
 You need 7.1 audio device to be connected and selected as primary speaker, but don´t worry. You can also use virtual audio device. First of all check if your sound card or headphones does not support it and if they don´t use this guide.
 
- 1. Download [VB-Cable](https://www.vb-audio.com/Cable/)
+ 1. Download [VB-Cable](https://www.vb-audio.com/Cable/) (better alternative: [Raser Surround](https://www.razer.com/surround))
  2. Install it
  3. **Reboot PC**
  4. Go to sound settings 
