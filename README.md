@@ -49,6 +49,3 @@ You can also **star this repo** or **fork this repo**.
     
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
- 
-
