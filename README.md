@@ -29,7 +29,7 @@ You need 7.1 audio device to be connected and selected as primary speaker, but d
 You can download [latest compiled build from AppVeyor](https://ci.appveyor.com/project/SamuelTulach/canetisradar/build/artifacts), [releases](https://github.com/SamuelTulach/CanetisRadar/releases) or build it from source.
 
 ## Contributing
-If you want to help, you can create pull-request or donate me some money at [PayPal.me](paypal.me/SamuelTulach)
+If you want to help, you can create pull-request.
 
 You can also **star this repo** or **fork this repo**.
 
