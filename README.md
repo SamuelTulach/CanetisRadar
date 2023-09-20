@@ -37,7 +37,7 @@ You need 7.1 audio device to be connected and selected as primary speaker (inclu
 
 ## VB Cable Setup (alternative)
 
- 1. Download [VB-Cable](https://www.vb-audio.com/Cable/) (better alternative: [Raser Surround](https://www.razer.com/surround))
+ 1. Download [VB-Cable](https://www.vb-audio.com/Cable/) 
  2. Install it
  3. **Reboot PC**
  4. Go to sound settings 
