@@ -1,5 +1,5 @@
 ﻿# Canetis Radar v3
-## Improved UI and added Section Highlighting
+## Sectional Highlighting and Configurability
 This fork is for 7.1 Surround with side Speakers only (Voicemeeter supported), 
 It adds functionality such as:
 
@@ -15,10 +15,29 @@ It adds functionality such as:
 </p>
 CanetisRadar is open-source application for helping with recognizing sound direction in games. It has overlay that can be used in games and it uses 7.1 audio to calculate sound direction.
 
-## How to use
+## Voicemeter Banana Setup (Better)
 You need 7.1 audio device to be connected and selected as primary speaker (including side speakers), but don´t worry. You can also use virtual audio device. First of all check if your sound card or headphones does not support it and if they don´t use this guide.
 
- 1. Download [VB-Cable](https://www.vb-audio.com/Cable/) (better alternative: [Raser Surround](https://www.razer.com/surround))
+ 1. Download [Voicemeeter-Banana](https://vb-audio.com/Voicemeeter/banana.htm) 
+ 2. Install it
+ 3. **Reboot PC**
+ 4. Go to "Change System Sounds"
+ 5. Open *Playback* tab
+ 6. Set *Voicemeeter Input* as default
+ 7. Click on *Configure*
+ 8. Set sound to *7.1 surround* and enable all speakers
+ 9. Open *Voicemeeter Banana*
+ 10. Set your Hardware Output A1 to the preferred Device (Speakers, Headset etc) 
+ 11. In the Master Section for A1, click where it says "Normal Mode" and change it to "Mix down B" (Mix Down A doesnt work in some games)
+ 12. Check that Virtual Input "Voicemeeter VAIO" Plays to A1 (Button A1 highlighted Green)
+ 13. Set Voicemeeter Virtual Input as your Speaker everywhere
+ 14. Set Voicemeeter Banana to Autostart and Autorestart
+ 15. Profit
+ 16. If you dont want e.g. Discord Sound to appear on Sound Radar -> set output device in your Discord Settings as normal (not Virutal Input)
+
+## VB Cable Setup (alternative)
+
+ 1. Download [VB-Cable](https://www.vb-audio.com/Cable/) 
  2. Install it
  3. **Reboot PC**
  4. Go to sound settings 
@@ -35,7 +54,7 @@ You need 7.1 audio device to be connected and selected as primary speaker (inclu
  
 
 ## Download
-You can download [latest compiled build from AppVeyor](https://ci.appveyor.com/project/SamuelTulach/canetisradar/build/artifacts), [releases](https://github.com/SamuelTulach/CanetisRadar/releases) or build it from source.
+Build from Source or download Binary in Relases [releases](https://github.com/ensingerphilipp/CanetisRadarv3/releases)
 
 ## Contributing
 If you want to help, you can create pull-request.
