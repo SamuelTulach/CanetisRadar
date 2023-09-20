@@ -1,13 +1,22 @@
-﻿# Canetis Radar
-<p align="center">
-    <img src="https://i.imgur.com/V4iRCq5.png">
-</p>
-CanetisRarar is open-source application for helping with recognizing sound direction in games. It has overlay that can be used in games and it uses 7.1 audio to calculate sound direction.
+﻿# Canetis Radar v3
+## Improved UI and added Section Highlighting
+This fork is for 7.1 Surround with side Speakers only (Voicemeeter supported), 
+It adds functionality such as:
 
-[![Build status](https://ci.appveyor.com/api/projects/status/6ohnn5stgvsjj0of?svg=true)](https://ci.appveyor.com/project/SamuelTulach/canetisradar) [![Join the chat at https://gitter.im/CanetisRadar/Lobby](https://badges.gitter.im/CanetisRadar/Lobby.svg)](https://gitter.im/CanetisRadar/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) 
+* Sectioned Radar with Highlights
+* Highlightduration configurable
+* Section Amount configurable
+* Minimum Sound Detection Threshold configurable
+* Slight delay added to visualisation for better usability
+ 
+<p align="center">
+    <img src=/Resources/radar.png>
+    <img src=/Resources/screen.png>
+</p>
+CanetisRadar is open-source application for helping with recognizing sound direction in games. It has overlay that can be used in games and it uses 7.1 audio to calculate sound direction.
 
 ## How to use
-You need 7.1 audio device to be connected and selected as primary speaker, but don´t worry. You can also use virtual audio device. First of all check if your sound card or headphones does not support it and if they don´t use this guide.
+You need 7.1 audio device to be connected and selected as primary speaker (including side speakers), but don´t worry. You can also use virtual audio device. First of all check if your sound card or headphones does not support it and if they don´t use this guide.
 
  1. Download [VB-Cable](https://www.vb-audio.com/Cable/) (better alternative: [Raser Surround](https://www.razer.com/surround))
  2. Install it
