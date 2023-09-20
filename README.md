@@ -1,4 +1,4 @@
-﻿# Canetis Radar v3
+﻿# Canetis Radar Improved
 ## Sectional Highlighting and Configurability
 This fork is for 7.1 Surround with side Speakers only (Voicemeeter supported), 
 It adds functionality such as:
