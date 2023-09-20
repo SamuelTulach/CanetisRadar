@@ -33,10 +33,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="INIFileParser">
-      <HintPath>..\..\..\..\Programs\CanetisRadar-master\Downloadhere(withside7.1speakers)\INIFileParser.dll</HintPath>
+      <HintPath>..\packages\ini-parser.2.5.2\lib\net20\INIFileParser.dll</HintPath>
     </Reference>
     <Reference Include="NAudio">
-      <HintPath>..\..\..\..\Programs\CanetisRadar-master\Downloadhere(withside7.1speakers)\NAudio.dll</HintPath>
+      <HintPath>..\packages\NAudio.1.8.4\lib\net35\NAudio.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Drawing" />

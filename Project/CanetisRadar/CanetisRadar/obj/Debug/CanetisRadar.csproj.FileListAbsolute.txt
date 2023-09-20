@@ -1,0 +1,2 @@
+D:\Daten\Freizeit\CanetisRadarFork\github\CanetisRadarv3\Project\CanetisRadar\CanetisRadar\obj\Debug\CanetisRadar.csproj.AssemblyReference.cache
+D:\Daten\Freizeit\CanetisRadarFork\github\CanetisRadarv3\Project\CanetisRadar\CanetisRadar\obj\Debug\CanetisRadar.csproj.CoreCompileInputs.cache
