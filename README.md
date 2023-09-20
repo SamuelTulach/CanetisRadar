@@ -36,7 +36,6 @@ You need 7.1 audio device to be connected and selected as primary speaker (inclu
  16. If you dont want e.g. Discord Sound to appear on Sound Radar -> set output device in your Discord Settings as normal (not Virutal Input)
 
 ## VB Cable Setup (alternative)
-You need 7.1 audio device to be connected and selected as primary speaker (including side speakers), but don´t worry. You can also use virtual audio device. First of all check if your sound card or headphones does not support it and if they don´t use this guide.
 
  1. Download [VB-Cable](https://www.vb-audio.com/Cable/) (better alternative: [Raser Surround](https://www.razer.com/surround))
  2. Install it
@@ -55,7 +54,7 @@ You need 7.1 audio device to be connected and selected as primary speaker (inclu
  
 
 ## Download
-You can download [latest compiled build from AppVeyor](https://ci.appveyor.com/project/SamuelTulach/canetisradar/build/artifacts), [releases](https://github.com/SamuelTulach/CanetisRadar/releases) or build it from source.
+Build from Source or download Binary in Relases [releases](https://github.com/ensingerphilipp/CanetisRadarv3/releases)
 
 ## Contributing
 If you want to help, you can create pull-request.
