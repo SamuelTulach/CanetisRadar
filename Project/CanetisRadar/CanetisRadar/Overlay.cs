@@ -43,6 +43,7 @@ namespace CanetisRadar
 			IniData data = parser.ReadFile(AppDomain.CurrentDomain.BaseDirectory + "settings.ini");
 			this._multiplier = int.Parse(data["basic"]["multiplier"]);
 			this._updateRate = int.Parse(data["basic"]["updateRate"]);
+			this._delay = int.Parse(data["basic"]["delay"]);
 			this._sectionAmount = int.Parse(data["sectionHighlights"]["sectionAmount"]);
 			this._highlightDurationSeconds = int.Parse(data["sectionHighlights"]["highlightDurationSeconds"]);
 			this._highlightSoundThreshold = int.Parse(data["sectionHighlights"]["highlightSoundThreshold"]);
@@ -70,7 +71,6 @@ namespace CanetisRadar
 			float[] left = new float[history];
 			float[] right = new float[history];
 
-			int delay = 25;
 			int idx = 0;
 
 			Graphics grp = Graphics.FromImage(this._radar);
@@ -87,12 +87,12 @@ namespace CanetisRadar
 				idx = (idx + 1) % 100;
 
 
-				float tempOne = leftTop[(idx + (history - delay)) % history] * (float)this._multiplier;
-				float tempTwo = rightTop[(idx + (history - delay)) % history] * (float)this._multiplier;
-				float tempThree = leftBottom[(idx + (history - delay)) % history] * (float)this._multiplier;
-				float tempFour = rightBottom[(idx + (history - delay)) % history] * (float)this._multiplier;
-				float tempFive = left[(idx + (history - delay)) % history] * (float)this._multiplier;
-				float tempSix = right[(idx + (history - delay)) % history] * (float)this._multiplier;
+				float tempOne = leftTop[(idx + (history - this._delay)) % history] * (float)this._multiplier;
+				float tempTwo = rightTop[(idx + (history - this._delay)) % history] * (float)this._multiplier;
+				float tempThree = leftBottom[(idx + (history - this._delay)) % history] * (float)this._multiplier;
+				float tempFour = rightBottom[(idx + (history - this._delay)) % history] * (float)this._multiplier;
+				float tempFive = left[(idx + (history - this._delay)) % history] * (float)this._multiplier;
+				float tempSix = right[(idx + (history - this._delay)) % history] * (float)this._multiplier;
 
 
 				float x = 75f - tempOne + tempTwo - tempFive + tempSix;
@@ -256,6 +256,9 @@ namespace CanetisRadar
 
 		// Highlighting SoundThreshold
 		private int _highlightSoundThreshold = 50;
+
+		//Delay Time for visuals
+		private int _delay = 5;
 
 		// Token: 0x0400000F RID: 15
 		private readonly Bitmap _radar = new Bitmap(150, 150);
