@@ -38,7 +38,8 @@ namespace CanetisRadar
 			int initialStyle = Overlay.GetWindowLong(base.Handle, -20);
 			Overlay.SetWindowLong(base.Handle, -20, initialStyle | 524288 | 32);
 			base.WindowState = FormWindowState.Maximized;
-			base.Opacity = 0.5;
+			base.TopMost = true;
+			base.Opacity = 0.7;
 			FileIniDataParser parser = new FileIniDataParser();
 			IniData data = parser.ReadFile(AppDomain.CurrentDomain.BaseDirectory + "settings.ini");
 			this._multiplier = int.Parse(data["basic"]["multiplier"]);

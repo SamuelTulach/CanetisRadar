@@ -1,4 +1,6 @@
-﻿namespace CanetisRadar
+﻿using System.Windows.Forms;
+
+namespace CanetisRadar
 {
 	// Token: 0x02000003 RID: 3
 	public partial class Overlay : global::System.Windows.Forms.Form
@@ -12,6 +14,18 @@
 				this.components.Dispose();
 			}
 			base.Dispose(disposing);
+		}
+
+		protected override CreateParams CreateParams
+		{
+			get
+			{
+				const int csNoclose = 0x200;
+
+				var cp = base.CreateParams;
+				cp.ClassStyle |= csNoclose;
+				return cp;
+			}
 		}
 
 		// Token: 0x0600000F RID: 15 RVA: 0x00002B34 File Offset: 0x00000D34
@@ -36,7 +50,7 @@
 			base.ShowInTaskbar = false;
 			base.StartPosition = global::System.Windows.Forms.FormStartPosition.Manual;
 			base.Location = new global::System.Drawing.Point(150, 150);
-			this.Text = "CanetisRadar Overlay";
+			this.Text = "SoundRadar Overlay";
 			base.TopMost = true;
 			base.Controls.Add(this.RadarBox);
 			base.Load += new global::System.EventHandler(this.Overlay_Load);
