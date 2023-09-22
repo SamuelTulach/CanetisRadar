@@ -9,6 +9,7 @@ It adds the following functionality:
 * **Section Amount** configurable
 * Minimum **Sound Detection Threshold** configurable
 * Slight delay added to visualisation for better usability
+* Fullscreen Compatibility
  
 <p align="center">
     <img src=/Resources/radar.png>
