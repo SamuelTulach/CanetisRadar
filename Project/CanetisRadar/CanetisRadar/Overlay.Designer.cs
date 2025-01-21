@@ -1,97 +1,68 @@
-﻿namespace CanetisRadar
+﻿using System.Windows.Forms;
+
+namespace CanetisRadar
 {
-    partial class Overlay
-    {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
-        private System.ComponentModel.IContainer components = null;
+	// Token: 0x02000003 RID: 3
+	public partial class Overlay : global::System.Windows.Forms.Form
+	{
+		// Token: 0x0600000E RID: 14 RVA: 0x00002AFC File Offset: 0x00000CFC
+		protected override void Dispose(bool disposing)
+		{
+			bool flag = disposing && this.components != null;
+			if (flag)
+			{
+				this.components.Dispose();
+			}
+			base.Dispose(disposing);
+		}
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing && (components != null))
-            {
-                components.Dispose();
-            }
-            base.Dispose(disposing);
-        }
+		protected override CreateParams CreateParams
+		{
+			get
+			{
+				const int csNoclose = 0x200;
 
-        #region Windows Form Designer generated code
+				var cp = base.CreateParams;
+				cp.ClassStyle |= csNoclose;
+				return cp;
+			}
+		}
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
-        private void InitializeComponent()
-        {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Overlay));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.pictureBox1.Location = new System.Drawing.Point(320, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(150, 150);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Lime;
-            this.label1.Location = new System.Drawing.Point(13, 13);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(165, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "CanetisRadar (by Samuel Tulach)";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Lime;
-            this.label2.Location = new System.Drawing.Point(12, 35);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(54, 13);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Loading...";
-            // 
-            // Overlay
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximizeBox = false;
-            this.MinimizeBox = false;
-            this.Name = "Overlay";
-            this.ShowInTaskbar = false;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "CanetisRadar Overlay";
-            this.TopMost = true;
-            this.Load += new System.EventHandler(this.Overlay_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
+		// Token: 0x0600000F RID: 15 RVA: 0x00002B34 File Offset: 0x00000D34
+		private void InitializeComponent()
+		{
+			global::System.ComponentModel.ComponentResourceManager resources = new global::System.ComponentModel.ComponentResourceManager(typeof(global::CanetisRadar.Overlay));
+			this.RadarBox = new global::System.Windows.Forms.PictureBox();
+			((global::System.ComponentModel.ISupportInitialize)this.RadarBox).BeginInit();
+			base.SuspendLayout();
+			int yPosRadar = 50;
+			this.RadarBox.Location = new global::System.Drawing.Point(12, yPosRadar);
+			this.RadarBox.Name = "RadarBox";
+			this.RadarBox.Size = new global::System.Drawing.Size(150, 150);
+			base.AutoScaleDimensions = new global::System.Drawing.SizeF(6f, 13f);
+			base.AutoScaleMode = global::System.Windows.Forms.AutoScaleMode.Font;
+			base.ClientSize = new global::System.Drawing.Size(512, 512);
+			base.FormBorderStyle = global::System.Windows.Forms.FormBorderStyle.None;
+			base.Icon = (global::System.Drawing.Icon)resources.GetObject("$this.Icon");
+			base.MaximizeBox = false;
+			base.MinimizeBox = false;
+			base.Name = "Overlay";
+			base.ShowInTaskbar = false;
+			base.StartPosition = global::System.Windows.Forms.FormStartPosition.Manual;
+			base.Location = new global::System.Drawing.Point(150, 150);
+			this.Text = "SoundRadar Overlay";
+			base.TopMost = true;
+			base.Controls.Add(this.RadarBox);
+			base.Load += new global::System.EventHandler(this.Overlay_Load);
+			((global::System.ComponentModel.ISupportInitialize)this.RadarBox).EndInit();
+			base.ResumeLayout(false);
+			base.PerformLayout();
+		}
 
-        }
+		// Token: 0x04000011 RID: 17
+		private global::System.ComponentModel.IContainer components = null;
 
-        #endregion
-
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-    }
+		// Token: 0x04000012 RID: 18
+		private global::System.Windows.Forms.PictureBox RadarBox;
+	}
 }

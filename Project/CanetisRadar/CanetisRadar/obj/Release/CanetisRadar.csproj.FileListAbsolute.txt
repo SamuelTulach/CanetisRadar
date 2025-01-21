@@ -1,0 +1,12 @@
+D:\Daten\Freizeit\CanetisRadarFork\github\CanetisRadarv3\Project\CanetisRadar\CanetisRadar\obj\Release\CanetisRadar.csproj.CoreCompileInputs.cache
+D:\Daten\Freizeit\CanetisRadarFork\github\CanetisRadarv3\Project\CanetisRadar\CanetisRadar\bin\Release\CanetisRadar.exe.config
+D:\Daten\Freizeit\CanetisRadarFork\github\CanetisRadarv3\Project\CanetisRadar\CanetisRadar\bin\Release\CanetisRadar.exe
+D:\Daten\Freizeit\CanetisRadarFork\github\CanetisRadarv3\Project\CanetisRadar\CanetisRadar\bin\Release\CanetisRadar.pdb
+D:\Daten\Freizeit\CanetisRadarFork\github\CanetisRadarv3\Project\CanetisRadar\CanetisRadar\bin\Release\INIFileParser.dll
+D:\Daten\Freizeit\CanetisRadarFork\github\CanetisRadarv3\Project\CanetisRadar\CanetisRadar\bin\Release\NAudio.dll
+D:\Daten\Freizeit\CanetisRadarFork\github\CanetisRadarv3\Project\CanetisRadar\CanetisRadar\bin\Release\INIFileParser.xml
+D:\Daten\Freizeit\CanetisRadarFork\github\CanetisRadarv3\Project\CanetisRadar\CanetisRadar\bin\Release\NAudio.xml
+D:\Daten\Freizeit\CanetisRadarFork\github\CanetisRadarv3\Project\CanetisRadar\CanetisRadar\obj\Release\CanetisRadar.csproj.AssemblyReference.cache
+D:\Daten\Freizeit\CanetisRadarFork\github\CanetisRadarv3\Project\CanetisRadar\CanetisRadar\obj\Release\CanetisRadar.csproj.CopyComplete
+D:\Daten\Freizeit\CanetisRadarFork\github\CanetisRadarv3\Project\CanetisRadar\CanetisRadar\obj\Release\CanetisRadar.exe
+D:\Daten\Freizeit\CanetisRadarFork\github\CanetisRadarv3\Project\CanetisRadar\CanetisRadar\obj\Release\CanetisRadar.pdb
