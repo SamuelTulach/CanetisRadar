@@ -1,4 +1,6 @@
-﻿# Canetis Radar
+**Archival note:** This is a very old project of mine and one of the first things I ever programmed as a teen, the code/repo quality reflects that. I am keeping it here for archival purposes. If you are looking for something similar, there are a bunch of updated forks available.
+ 
+ # Canetis Radar
 <p align="center">
     <img src="https://i.imgur.com/V4iRCq5.png">
 </p>
